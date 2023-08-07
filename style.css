@@ -1,0 +1,27 @@
+body{
+    background-image: url("./assets/background_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#main{
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1.7fr 1fr 1fr ;
+    gap: 20px;
+}
+.all_food_items{
+    background-color: grey;
+    opacity: 0.8;
+    /* color: black; */
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+ol{
+    font-size: 20px;
+    /* font-weight: 700; */
+}
